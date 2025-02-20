@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    animation: slideLeft linear;
+    animation: slideLeft ease;
     animation-timeline: view();
 }
 
@@ -41,7 +41,7 @@
     margin: 0;
     display: flex;
     justify-content: space-between;
-    animation: slideRight linear;
+    animation: slideRight ease;
     animation-timeline: view();
 }
 
@@ -55,7 +55,7 @@
 @keyframes slideLeft {
     from {
         transform: translateX(-100%);
-    } 45% {
+    } 50% {
         transform: translateX(0);
     } 55% {
         opacity: 1;
@@ -67,7 +67,7 @@
 @keyframes slideRight {
     from {
         transform: translateX(100%);
-    } 45% {
+    } 50% {
         transform: translateX(0);
     } 55% {
         opacity: 1;

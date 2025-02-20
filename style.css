@@ -2,6 +2,8 @@
 @import url('styles/navbar.css');
 @import url('styles/header.css');
 @import url('styles/section.css');
+@import url('styles/about.css');
+@import url('styles/category.css');
 
 :root {
     --fundo-header: #C1DCDC;
