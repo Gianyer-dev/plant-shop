@@ -1,0 +1,13 @@
+.items {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.text {}
+
+.gallery {
+    display: flex;
+}
