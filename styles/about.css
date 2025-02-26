@@ -1,0 +1,38 @@
+.about {
+    background-image: url('../assets/garden-plants.gif');
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.about {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.about__text {
+    margin: 2em 0;
+}
+
+.about__info {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0;
+}
+
+
+.about__item {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

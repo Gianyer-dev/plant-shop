@@ -4,6 +4,7 @@
 @import url('styles/items.css');
 @import url('styles/about.css');
 @import url('styles/category.css');
+@import url('styles/footer.css');
 
 :root {
     --fundo-header: #C1DCDC;
@@ -18,6 +19,7 @@ body {
 }
 
 .section {
+    height: 100%;
     margin: 0 2em;
 }
 

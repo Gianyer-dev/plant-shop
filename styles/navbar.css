@@ -1,5 +1,5 @@
 .navbar {
-    margin: 0.5em 0;
+    height: 10%;
     display: flex;
     justify-content: space-between;
 }
@@ -10,8 +10,12 @@
     align-items: center;
 }
 
+.navbar div a {
+    height: 40%;
+}
+
 .navbar div img {
-    width: 10em;
+    width: 100%;
 }
 
 .nav__menu {
@@ -22,7 +26,8 @@
 }
 
 .nav__menu li a {
-    padding: 1em 2em;
+    font-size: 18px;
+    padding: 1em 1em;
     text-decoration: none;
     color: black;
     display: flex;
@@ -30,7 +35,7 @@
 }
 
 .nav__menu li img {
-    width: 2em;
+    width: 1.5em;
 }
 
 .nav__menu li a:hover {

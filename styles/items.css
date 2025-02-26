@@ -6,8 +6,31 @@
     padding: 2em 0;
 }
 
-.text {}
+.text {
+    width: 20%;
+}
+
+.text h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.text p {
+    margin-bottom: 1.5em;
+    width: 80%;
+    font-size: 18px;
+}
+
+.text a {
+    background-color: var(--fundo-header);
+    text-decoration: none;
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    color: black;
+}
 
 .gallery {
     display: flex;
+    justify-content: space-between;
+    width: 80%;
 }
