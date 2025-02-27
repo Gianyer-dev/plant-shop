@@ -6,8 +6,6 @@
     align-items: center;
     padding: 0 2em;
     background-color: var(--fundo-header);
-    position: relative;
-    top: 6%;
 }
 
 .category__container {
